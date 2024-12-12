@@ -3,7 +3,7 @@ package tests;
 import api.CourierApi;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
-import model.CourierData;
+import model.CreateCourierData;
 import model.CourierGenerator;
 import org.junit.After;
 import org.junit.Before;
@@ -17,7 +17,7 @@ public class CreateCourierTest {
 
     private CourierApi courierApi;
     private int  courierId;
-    private CourierData courierData;
+    private CreateCourierData courierData;
 
 
     @Before
